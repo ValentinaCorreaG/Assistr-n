@@ -1,0 +1,4 @@
+package IntroduccionS
+
+class funciones {
+}
