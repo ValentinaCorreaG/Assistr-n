@@ -1,0 +1,42 @@
+class prueba {
+}
+fun Hello(){
+    println("Hello World")
+}
+
+fun HelloStr(name: String?){
+    println("hello " + name)
+}
+fun sumar(int1:Double, int2:Double){
+    var suma:Double = int1 + int2
+    println("prueba"+suma)
+}
+fun restar(int1:Double, int2:Double){
+    var resta: Double = int1 - int2
+    println(resta)
+}
+fun multiplicar(int1:Double, int2:Double){
+    var multi: Double = int1 * int2
+    println(multi)
+}
+fun dividir(int1:Double, int2:Double){
+    var divi: Double = int1 / int2
+    println(divi)
+}
+
+fun main(){
+    println("Dime el primer número \n")
+    var n1 = readLine()!!.toDouble()
+    print ("Dime el segundo número \n")
+    var n2 = readLine()!!.toDouble()
+    println("Suma(1), Resta(2), Multiplicacion(3), " +
+            "División(4)")
+    var res = readLine()!!.toInt()
+    when (res){
+        1-> sumar(n1, n2)
+        2-> restar(n1, n2)
+        3-> multiplicar(n1, n2)
+        4-> dividir(n1, n2)
+        else-> println("ERROR")
+    }
+}
