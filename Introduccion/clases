@@ -1,0 +1,55 @@
+package com.example.introkotlin1.introduccion.clases
+
+class Persona {
+    //Atributos
+    var nombre:String = ""
+        get() {
+            return field
+        }
+        set(value) {
+            field = value
+        }
+    var edad:Int
+        get() {
+            return field
+        }
+        set(value) { field = value}
+    var estatura:Double
+        get() {
+            return field
+        }
+        set(value) { field = value}
+    var sexo:Boolean
+        get() {
+            return field
+        }
+        set(value) { field = value}
+
+    constructor(nombre:String, edad:Int, estatura:Double, sexo:Boolean){
+        this.nombre = nombre
+        this.estatura = estatura
+        this.edad = edad
+        this.sexo = sexo
+
+
+    /*fun pedirDatos(){
+        println("Por favor ingrese su nombre")
+        this.nombre = readLine()!!.toString()
+        println("Por favor ingrese su edad")
+        this.edad= readLine()!!.toInt()
+        println("Por favor ingrese su estatura")
+        this.nombre = readLine()!!.toDouble().toString()
+        println("Por favor ingrese su sexo")
+        this.sexo = readLine()!!.toBoolean()*/
+    }
+
+
+}
+
+fun main(){
+    val persona1 = Persona("sara", 12, 12.3, true)
+    //persona1.pedirDatos()
+    println("Mi edad es " + persona1.edad)
+    println("Mi nombre es " + persona1.nombre)
+    println("Mi estatura es "+ persona1.estatura)
+}
