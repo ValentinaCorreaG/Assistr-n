@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0DDE1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginBottom="20dp"
+        android:background="#E7E7E7"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="Asistron"
+        android:textAllCaps="false"
+        android:textColor="#142157"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="24dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/Perfil" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Usuario:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_username"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/borde_redondo"
+        android:hint="Pepito"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Grupo:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_username"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/borde_redondo"
+        android:hint="Aprendiendo a nadar"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Especialidad:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_username"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/borde_redondo"
+        android:hint="Mariposa"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Telefono:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_username"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/borde_redondo"
+        android:hint="1234567890"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="#B0DDE1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo_boton"
+            android:text="Volver"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/white"/>
+
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/borde_redondo_boton"
+            android:text="Guardar"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
