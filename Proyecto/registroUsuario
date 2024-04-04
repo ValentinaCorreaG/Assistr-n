@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0dde1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+
+
+    <TextView
+        android:id="@+id/Asistron"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginBottom="20dp"
+        android:text="Asistrón"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background="#e7e7e7"
+        android:gravity="center"
+        android:textColor="#142157"
+        android:textIsSelectable="false"
+        />
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Usuario:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_username_1"
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/borde_redondo"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Nombre:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_name_1"
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/borde_redondo"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Cédula:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editarC"
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/borde_redondo"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/grupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Grupo:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_grupo"
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/borde_redondo"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/especialidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Especialidad:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_especialidad"
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/borde_redondo"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Teléfono:"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_telefono"
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/borde_redondo"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde_redondo_boton"
+        android:text="Continuar"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
