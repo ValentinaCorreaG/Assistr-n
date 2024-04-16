@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".RegistroUsuarioActivity">
+    <EditText android:id="@+id/editTextNombre" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nombre"/>
+    <EditText android:id="@+id/editTextCorreo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/editTextNombre" android:hint="Correo electrónico"/>
+    <EditText android:id="@+id/editTextContraseña" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/editTextCorreo" android:hint="Contraseña" android:inputType="textPassword"/>
+    <Button android:id="@+id/buttonRegistrar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/editTextContraseña" android:text="Registrar"/>
+</RelativeLayout>
