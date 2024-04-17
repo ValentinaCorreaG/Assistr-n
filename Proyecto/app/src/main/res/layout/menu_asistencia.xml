@@ -122,25 +122,42 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#B0DDE1"
-        android:gravity="bottom|right"
-        android:orientation="vertical">
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo_boton"
+            android:text="Volver"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="14dp"
+            android:textColor="@android:color/white"/>
 
         <LinearLayout
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="20dp"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:background="@drawable/circulo_menu"
-            android:text="Guardar"
-            android:gravity="center"
-            android:textColor="@android:color/white">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B0DDE1"
+            android:gravity="bottom|right"
+            android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/menu" />
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/circulo_menu"
+                android:text="Guardar"
+                android:gravity="center"
+                android:textColor="@android:color/white">
 
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/menu" />
+
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
