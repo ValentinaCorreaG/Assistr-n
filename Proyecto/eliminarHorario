@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0dde1"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginBottom="20dp"
+        android:background="#e7e7e7"
+        android:gravity="center"
+        android:text="Asistrón"
+        android:textAlignment="center"
+        android:textColor="#142157"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar horarios:"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#142157"
+            android:gravity="center"
+            android:paddingBottom="50dp"
+            />
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/borde_redondo"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:hint="Semillero"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/borde_redondo_boton"
+            android:text="Buscar"
+            android:textColor="@android:color/white"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_cuadrado"
+            android:orientation="horizontal"
+            android:padding="30dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:paddingBottom="6dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nadaremos" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/boton_alerta"
+                    android:text="Inactivar"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Semillero"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L, Ma, Mi "
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3:00pm a 4:00pm "
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/boton_cuadrado_azul"
+                    android:text="Editar"
+                    android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
