@@ -23,7 +23,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="15dp">
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="40dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -118,6 +120,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/borde_redondo_boton"
             android:text="Volver"
+            android:layout_marginTop="30dp"
             android:textColor="@android:color/white" />
         
     </LinearLayout>
