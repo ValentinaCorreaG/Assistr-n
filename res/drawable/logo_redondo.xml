@@ -12,7 +12,8 @@
 
         </shape>
     </item>
-    <item android:drawable="@drawable/Logo"
+    <item
+        android:drawable="@drawable/logo"
         android:bottom="50dp"
         android:left="50dp"
         android:right="60dp"
