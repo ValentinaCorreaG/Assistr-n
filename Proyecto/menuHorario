@@ -29,33 +29,35 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Está usted gestionando el horario: (Insertar horario)"
+            android:text="Horarios"
             android:textStyle="bold"
-            android:textSize="20dp"
+            android:textSize="60dp"
             android:textColor="@color/black"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:paddingBottom="20dp"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:background="@drawable/boton_cuadrado_azul"
-            android:layout_margin="15dp">
+            android:background="@drawable/boton_cuadrado"
+            android:layout_margin="15dp"
+            >
 
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center"
                 android:layout_margin="15dp"
                 android:padding="6dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/eye" />
+                android:src="@drawable/eye"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Visualizar"
+                android:text="Ver horario"
                 android:textStyle="bold"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="30dp"
                 android:paddingLeft="30dp"
                 android:paddingTop="30dp"/>
@@ -64,7 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:background="@drawable/boton_cuadrado_azul"
+            android:background="@drawable/boton_cuadrado"
             android:layout_margin="15dp">
 
 
@@ -80,9 +82,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Editar"
+                android:text="Editar horario"
                 android:textStyle="bold"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="30dp"
                 android:paddingLeft="30dp"
                 android:paddingTop="30dp"/>
@@ -91,7 +93,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:background="@drawable/boton_cuadrado_azul"
+            android:background="@drawable/boton_cuadrado"
             android:layout_margin="15dp">
 
 
@@ -102,28 +104,28 @@
                 android:layout_gravity="center"
                 android:paddingBottom="10dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/delete" />
+                android:src="@drawable/add" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Inactivar"
+                android:text="Añadir horario"
                 android:textStyle="bold"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="30dp"
                 android:paddingLeft="30dp"
                 android:paddingTop="30dp"/>
         </LinearLayout>
-        
+
         <Button
             android:id="@+id/button_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:background="@drawable/borde_redondo_boton"
             android:text="Volver"
-            android:layout_marginTop="30dp"
             android:textColor="@android:color/white" />
-        
+
     </LinearLayout>
 
 
-</LinearLayout>>
+</LinearLayout>
