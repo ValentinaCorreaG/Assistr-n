@@ -28,7 +28,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/insert" />
+        android:src="@drawable/aprendiendo" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,10 +44,9 @@
     <EditText
         android:layout_width="350dp"
         android:layout_height="48dp"
-        android:text="Introduzca un nombre"
         android:layout_marginBottom="16dp"
         android:background="@drawable/borde_redondo"
-        android:hint=""
+        android:hint="Aprendiendo a Nadar"
         android:paddingLeft="10dp"
         android:textSize="20sp" />
 
@@ -66,10 +65,9 @@
     <EditText
         android:layout_width="350dp"
         android:layout_height="48dp"
-        android:text="Introduzca un entrenador"
         android:layout_marginBottom="16dp"
         android:background="@drawable/borde_redondo"
-        android:hint=""
+        android:hint="Nelson Gonzalez"
         android:paddingLeft="10dp"
         android:textSize="20sp" />
 
@@ -88,10 +86,9 @@
     <EditText
         android:layout_width="350dp"
         android:layout_height="48dp"
-        android:text="Introduzca un horario"
         android:layout_marginBottom="16dp"
         android:background="@drawable/borde_redondo"
-        android:hint=""
+        android:hint="Lunes y Jueves: 9-11"
         android:paddingLeft="10dp"
         android:textSize="20sp" />
 
@@ -110,10 +107,9 @@
     <EditText
         android:layout_width="350dp"
         android:layout_height="48dp"
-        android:text="Introduzca un lugar"
         android:layout_marginBottom="16dp"
         android:background="@drawable/borde_redondo"
-        android:hint=""
+        android:hint="Piscina 1"
         android:paddingLeft="10dp"
         android:textSize="20sp" />
 
@@ -129,11 +125,10 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-    <EditText
+    <Spinner
         android:id="@+id/spinner_integrantes"
         android:layout_width="350dp"
         android:layout_height="48dp"
-        android:text="Introduzca los integranets"
         android:layout_marginBottom="16dp"
         android:background="@drawable/borde_redondo"
         android:paddingLeft="10dp"
@@ -156,8 +151,8 @@
         android:layout_height="48dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/inactivo"
-        android:gravity="center"
         android:hint="Inactivo"
+        android:gravity="center"
         android:paddingLeft="10dp"
         android:textSize="20sp" />
 
@@ -174,14 +169,14 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:background="@drawable/borde_redondo_boton"
-            android:onClick="volverButtonClicked"
             android:text="Volver"
+            android:onClick="volverButtonClicked"
             android:layout_marginRight="20dp"
             android:textColor="@android:color/white"/>
 
 
         <Button
-            android:onClick="Registrargrupo"
+            android:onClick="Modificargrupo"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"

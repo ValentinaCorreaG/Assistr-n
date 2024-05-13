@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/root_lay"
+    android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
-<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,145 +27,121 @@
         android:textSize="40sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:baselineAligned="false"
-        android:gravity="center"
-        android:text="Gestion de Grupos"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-
     <LinearLayout
-        android:id="@+id/menu_mas"
         android:layout_width="320dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="20dp"
-        android:onClick="Añadir_Grupo"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/boton_gestiones"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/borde_redondo_gris"
+        android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:scaleType="centerCrop"
-            android:layout_marginLeft="20dp"
-            android:src="@drawable/add" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAligned="false"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="20dp"
             android:gravity="center"
-            android:text="Añadir \nGrupo"
+            android:text="Titulo:"
             android:textColor="#000000"
-            android:textSize="32sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
-    </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/menu_mod"
-        android:layout_width="320dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="20dp"
-        android:onClick="boton_modificar_grup"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/boton_gestiones"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:scaleType="centerCrop"
-            android:layout_marginLeft="20dp"
-            android:src="@drawable/edit" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAligned="false"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:text="Modificar \nGrupo"
+            android:gravity="left"
+            android:text="Torneo Mariposa"
             android:textColor="#000000"
-            android:textSize="32sp"
-            android:textStyle="bold" />
+            android:textSize="20sp" />
+
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/menu_buscar"
         android:layout_width="320dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="20dp"
-        android:onClick="Buscar_Grupo"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/boton_gestiones"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:layout_height="430dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/borde_redondo_gris"
+        android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:scaleType="centerCrop"
-            android:layout_marginLeft="20dp"
-            android:src="@drawable/search_negro" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAligned="false"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="20dp"
             android:gravity="center"
-            android:text="Buscar\nGrupo"
+            android:text="Mensaje:"
             android:textColor="#000000"
-            android:textSize="32sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/menu_ver"
-        android:layout_width="320dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="20dp"
-        android:onClick="Ver_Grupo"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/boton_gestiones"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:scaleType="centerCrop"
-            android:layout_marginLeft="20dp"
-            android:src="@drawable/eye_negro" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAligned="false"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:text="Los competidores desafiarán las aguas cristalinas en una serie de pruebas de mariposa, desde los 50 metros hasta la emocionante distancia de 200 metros. Los espectadores podrán disfrutar de la vista de los nadadores deslizandose sin parar a traves de todos los obstaculos."
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borde_redondo_gris"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="20dp"
             android:gravity="center"
-            android:text="Ver\nGrupo"
+            android:text="Fecha/hora envio:"
             android:textColor="#000000"
-            android:textSize="32sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:text="10/03/24"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
     </LinearLayout>
+
+
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="120dp"
         android:background="#B0DDE1"
         android:gravity="bottom"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/volver_inicio"
-            android:onClick="Volvermenu_inicio"
+            android:id="@+id/volver_noti"
+            android:onClick="Volvermenu_noti"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:background="@drawable/borde_redondo_boton"
@@ -175,7 +152,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="match_parent"
             android:background="#B0DDE1"
             android:gravity="bottom|right"
             android:orientation="vertical">

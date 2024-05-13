@@ -32,192 +32,131 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:baselineAligned="false"
         android:gravity="center"
-        android:text="¡Bienvenido!"
+        android:text="Asistencias"
         android:textColor="#000000"
-        android:textSize="34sp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:id="@+id/noti"
-        android:onClick="Inicio_noti"
-        android:layout_width="280dp"
-        android:layout_height="70dp"
+        android:id="@+id/ver_asist"
+        android:onClick="Asist_verasist"
+        android:layout_width="320dp"
+        android:layout_height="140dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/boton_gestiones"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:scaleType="centerCrop"
-            android:layout_marginLeft="15dp"
-            android:src="@drawable/notification" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="15dp"
-            android:gravity="center"
-            android:text="Notificaciones"
-            android:textColor="#000000"
-            android:textSize="28sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/asist"
-        android:onClick="Inicio_asist"
-        android:layout_width="280dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/boton_gestiones"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:scaleType="centerCrop"
-            android:layout_marginLeft="15dp"
-            android:src="@drawable/clipboard" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="15dp"
-            android:gravity="center"
-            android:text="Asistencias"
-            android:textColor="#000000"
-            android:textSize="28sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/buscarusuarios"
-        android:onClick="Inicio_usuarios"
-        android:layout_width="280dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/boton_gestiones"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:scaleType="centerCrop"
-            android:layout_marginLeft="15dp"
-
-            android:src="@drawable/people" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:baselineAligned="false"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="15dp"
-            android:gravity="center"
-            android:text="Usuarios"
-            android:textColor="#000000"
-            android:textSize="28sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/horarios"
-        android:onClick="Inicio_horarios"
-        android:layout_width="280dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/boton_gestiones"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:scaleType="centerCrop"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="20dp"
             android:src="@drawable/calendar" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAligned="false"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="15dp"
+            android:layout_marginRight="20dp"
             android:gravity="center"
-            android:text="Horarios"
+            android:text="Ver asistencias"
             android:textColor="#000000"
-            android:textSize="28sp"
+            android:textSize="32sp"
             android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/grupo"
-        android:onClick="Inicio_grupo"
-        android:layout_width="280dp"
-        android:layout_height="70dp"
+        android:id="@+id/mod_asist"
+        android:onClick="Asist_modasist"
+        android:layout_width="320dp"
+        android:layout_height="140dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/boton_gestiones"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:scaleType="centerCrop"
-            android:layout_marginLeft="15dp"
-            android:src="@drawable/target_audience" />
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/edit" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAligned="false"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="15dp"
+            android:layout_marginRight="20dp"
             android:gravity="center"
-            android:text="Grupos"
+            android:text="Modificar asistencia"
             android:textColor="#000000"
-            android:textSize="28sp"
+            android:textSize="32sp"
             android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/miperfil"
-        android:onClick="Inicio_miperfil"
-        android:layout_width="280dp"
-        android:layout_height="70dp"
+        android:id="@+id/añ_asist"
+        android:onClick="Asist_añasist"
+        android:layout_width="320dp"
+        android:layout_height="140dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/boton_gestiones"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:scaleType="centerCrop"
-            android:layout_marginLeft="15dp"
-            android:src="@drawable/profile" />
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/add" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAligned="false"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="15dp"
+            android:layout_marginRight="20dp"
             android:gravity="center"
-            android:text="Mi perfil"
+            android:text="Añadir asistencia"
             android:textColor="#000000"
-            android:textSize="28sp"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reporte"
+        android:onClick="Asist_reporte"
+        android:layout_width="320dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/boton_gestiones"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/report" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="Generar reporte de asistencia"
+            android:textColor="#000000"
+            android:textSize="32sp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -229,12 +168,12 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/cerarsesion"
-            android:onClick="Inicio_iniciarsesion"
+            android:id="@+id/volver_inicio"
+            android:onClick="Volvermenu_inicio"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:background="@drawable/borde_redondo_boton"
-            android:text="Cerrar sesion"
+            android:text="Volver"
             android:layout_marginLeft="45dp"
             android:layout_marginBottom="14dp"
             android:textColor="@android:color/white"/>
@@ -265,6 +204,7 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
 
 </LinearLayout>
 </ScrollView>

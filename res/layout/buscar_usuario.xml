@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B0DDE1"
@@ -23,84 +29,51 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:baselineAligned="false"
-        android:text="Buscar grupo:"
+        android:text="Buscar usuario:"
         android:textAllCaps="false"
         android:textColor="#000000"
         android:textIsSelectable="false"
         android:textSize="35sp"
         android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false"
+        android:text="Seleccione el usuario que desea gestionar"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
     <EditText
+        android:id="@+id/busquedausuario"
         android:layout_width="350dp"
         android:layout_height="48dp"
         android:layout_margin="40dp"
         android:background="@drawable/borde_redondo"
         android:textAlignment="center"
-        android:hint="Aprendiendo a Nadar"
+        android:hint="Pepito Perez"
         android:paddingLeft="10dp"
         android:textSize="20sp" />
     <Button
-        android:id="@+id/button_login"
+        android:id="@+id/buscando_usuarios"
+        android:onClick="Buscaruser_buscandousuario"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="120dp"
         android:background="@drawable/borde_redondo_boton"
         android:text="Buscar"
         android:textColor="@android:color/white" />
-    <LinearLayout
-        android:layout_width="350dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="40dp"
-        android:gravity="center"
-        android:textColor="#0000"
-        android:orientation="vertical"
-        android:layout_margin="40dp"
-        android:background="@drawable/pop_up"
-        >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal"
-            >
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginBottom="5dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/aprendiendo" />
 
-        <TextView
-            android:layout_width="175dp"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Aprendiendo a Nadar \n Entrenador: Nestor \n Piscina 1 \n Lunes y Jueves: 9-11"
-            android:textColor="#000000" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#B0DDE1"
+        android:gravity="bottom"
+        android:orientation="horizontal">
     </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal"
-            >
-            <Button
-                android:id="@+id/button_inactivar"
-                android:layout_width="150dp"
-                android:onClick="Cambiara_activo"
-                android:layout_marginRight="30dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/inactivar"
-                android:text="Inactivar"
-                android:textColor="@android:color/white"/>
-            <Button
-                android:id="@+id/boton_editar"
-                android:layout_width="150dp"
-                android:onClick="boton_modificar_grup"
-                android:layout_height="wrap_content"
-                android:background="@drawable/borde_redondo_boton"
-                android:text="Editar"
-                android:textColor="@android:color/white"/>
-    </LinearLayout>
-    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp"
@@ -147,3 +120,4 @@
     </LinearLayout>
 
 </LinearLayout>
+</ScrollView>

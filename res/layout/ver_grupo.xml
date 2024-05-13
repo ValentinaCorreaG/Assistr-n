@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B0DDE1"
@@ -55,17 +59,18 @@
             android:orientation="horizontal"
             >
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_inactivar"
                 android:layout_width="150dp"
+                android:onClick="Cambiara_activo"
                 android:layout_marginRight="30dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/inactivar"
-                android:text="Inhactivar"
-
-
+                android:text="Inactivar"
                 android:textColor="@android:color/white"/>
             <Button
+                android:id="@+id/boton_editar"
                 android:layout_width="150dp"
+                android:onClick="boton_modificar_grup"
                 android:layout_height="wrap_content"
                 android:background="@drawable/borde_redondo_boton"
                 android:text="Editar"
@@ -108,17 +113,18 @@
             android:orientation="horizontal"
             >
             <Button
-                android:id="@+id/button_red"
+                android:id="@+id/button_inactivar"
                 android:layout_width="150dp"
+                android:onClick="Cambiara_activo"
                 android:layout_marginRight="30dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/inactivar"
-                android:text="Inhactivar"
-
-
+                android:text="Inactivar"
                 android:textColor="@android:color/white"/>
             <Button
+                android:id="@+id/boton_editar"
                 android:layout_width="150dp"
+                android:onClick="boton_modificar_grup"
                 android:layout_height="wrap_content"
                 android:background="@drawable/borde_redondo_boton"
                 android:text="Editar"
@@ -132,7 +138,6 @@
         android:gravity="center"
         android:textColor="#0000"
         android:orientation="vertical"
-        android:layout_margin="40dp"
         android:background="@drawable/pop_up"
         >
         <LinearLayout
@@ -162,16 +167,18 @@
             android:orientation="horizontal"
             >
             <Button
+                android:id="@+id/button_inactivar"
                 android:layout_width="150dp"
+                android:onClick="Cambiara_activo"
                 android:layout_marginRight="30dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/inactivar"
-                android:text="Inhactivar"
-
-
+                android:text="Inactivar"
                 android:textColor="@android:color/white"/>
             <Button
+                android:id="@+id/boton_editar"
                 android:layout_width="150dp"
+                android:onClick="boton_modificar_grup"
                 android:layout_height="wrap_content"
                 android:background="@drawable/borde_redondo_boton"
                 android:text="Editar"
@@ -181,7 +188,6 @@
     <LinearLayout
         android:layout_width="350dp"
         android:layout_height="230dp"
-        android:layout_marginTop="40dp"
         android:gravity="center"
         android:textColor="#0000"
         android:orientation="vertical"
@@ -189,47 +195,104 @@
         android:background="@drawable/pop_up"
         >
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="350dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="40dp"
             android:gravity="center"
-            android:orientation="horizontal"
+            android:textColor="#0000"
+            android:orientation="vertical"
+            android:layout_margin="40dp"
+            android:background="@drawable/pop_up"
             >
-            <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_marginBottom="5dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/mayores" />
-
-            <TextView
-                android:layout_width="175dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Mayores \n Entrenador: Nestor \n Piscina 2 \n Sabados y Domingos: 9-11"
-                android:textColor="#000000" />
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mayores" />
+
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Mayores \n Entrenador: Nestor \n Piscina 4 \n Martes y Jueves: 11-1"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:id="@+id/button_inactivar"
+                    android:layout_width="150dp"
+                    android:onClick="Cambiara_activo"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/inactivar"
+                    android:text="Inactivar"
+                    android:textColor="@android:color/white"/>
+                <Button
+                    android:id="@+id/boton_editar"
+                    android:layout_width="150dp"
+                    android:onClick="boton_modificar_grup"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borde_redondo_boton"
+                    android:text="Editar"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
         </LinearLayout>
+    </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal"
-            >
-            <Button
-                android:id="@+id/button"
-                android:layout_width="150dp"
-                android:layout_marginRight="30dp"
-                android:layout_height="wrap_content"
-                android:background="@drawable/inactivar"
-                android:text="Inhactivar"
+            android:layout_height="120dp"
+            android:background="#B0DDE1"
+            android:gravity="bottom"
+            android:orientation="horizontal">
 
-
-                android:textColor="@android:color/white"/>
             <Button
+                android:id="@+id/volver_menu"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/borde_redondo_boton"
-                android:text="Editar"
+                android:text="Volver"
+                android:onClick="volverButtonClicked"
+                android:layout_marginLeft="45dp"
+                android:layout_marginBottom="14dp"
                 android:textColor="@android:color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="#B0DDE1"
+                android:gravity="bottom|right"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/circulo_menu"
+                    android:text="Guardar"
+                    android:gravity="center"
+                    android:textColor="@android:color/white">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/menu" />
+
+                </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+</ScrollView>
