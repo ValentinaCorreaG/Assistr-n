@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "823704841944",
+    "project_id": "bdasistron-429c7",
+    "storage_bucket": "bdasistron-429c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823704841944:android:d90a8f07a93986d933f1ad",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa1rgjZZRZ7Xkcg9MPXS_9zHzQTV8ay1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
