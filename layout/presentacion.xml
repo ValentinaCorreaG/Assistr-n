@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0DDE1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginBottom="20dp"
+        android:background="#E7E7E7"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="Asistron"
+        android:textAllCaps="false"
+        android:textColor="#142157"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="100dp"
+        android:layout_marginBottom="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+        android:background="@drawable/borde_redondo"
+
+        />
+
+    <Button
+        android:id="@+id/iniciar"
+        android:onClick="Presentacion_iniciarsesion"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/borde_redondo_boton"
+        android:text="Iniciar"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
+</ScrollView>

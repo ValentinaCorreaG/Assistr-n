@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0dde1"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginBottom="20dp"
+        android:background="#e7e7e7"
+        android:gravity="center"
+        android:text="Asistrón"
+        android:textAlignment="center"
+        android:textColor="#142157"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar usuarios:"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#142157"
+            android:gravity="center"
+            android:paddingBottom="50dp"
+            />
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/borde_redondo"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:hint="Pepito Perez"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/borde_redondo_boton"
+            android:text="Buscar"
+            android:textColor="@android:color/white"/>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textColor="#0000"
+            android:orientation="vertical"
+            android:layout_margin="40dp"
+            android:background="@drawable/pop_up"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/photo" />
+
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:text="Pepito Perez \n 10009373738 \n @pepito_perez9 \n Aprendiendo a Nadar \n 3187296189 \n Mariposa "
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:id="@+id/button_inactivar"
+                    android:layout_width="150dp"
+                    android:onClick="Cambiara_activo"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/inactivar"
+                    android:text="Inactivar"
+                    android:textColor="@android:color/white"/>
+                <Button
+                    android:id="@+id/boton_editar"
+                    android:layout_width="150dp"
+                    android:onClick="boton_modificar_grup"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borde_redondo_boton"
+                    android:text="Editar"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/volverU"
+            android:onClick="volvermU"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:background="@drawable/borde_redondo_boton"
+            android:text="Volver"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

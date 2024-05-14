@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0DDE1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginBottom="20dp"
+        android:background="#E7E7E7"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="Asistron"
+        android:textAllCaps="false"
+        android:textColor="#142157"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="#0000"
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+        android:background="@drawable/pop_up"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/aprendiendo" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#008F0A0A"
+                android:baselineAligned="false"
+                android:layout_marginLeft="20dp"
+                android:text="Aprendiendo a nadar"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginRight="-180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_repo"
+                android:text="Generar Reporte"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="#0000"
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+        android:background="@drawable/pop_up"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/semilleroo" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="#008F0A0A"
+                android:baselineAligned="false"
+                android:layout_marginLeft="20dp"
+                android:text="Semillero"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_marginRight="-180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_repo"
+                android:text="Generar Reporte"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="#0000"
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+        android:background="@drawable/pop_up"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/entrenamiento" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="#008F0A0A"
+                android:baselineAligned="false"
+                android:layout_marginLeft="20dp"
+                android:text="Entrenamiento"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginRight="-180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_repo"
+                android:text="Generar Reporte"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="#0000"
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+        android:background="@drawable/pop_up"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mayores" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="#008F0A0A"
+                android:baselineAligned="false"
+                android:layout_marginLeft="20dp"
+                android:text="Mayores"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginRight="-180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_repo"
+                android:text="Generar Reporte"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#B0DDE1"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/volver_asist"
+            android:onClick="Volvermenu_asist"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo_boton"
+            android:text="Volver"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="14dp"
+            android:textColor="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B0DDE1"
+            android:gravity="bottom|right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/circulo_menu"
+                android:text="Guardar"
+                android:gravity="center"
+                android:textColor="@android:color/white">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/menu" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
