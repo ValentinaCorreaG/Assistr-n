@@ -1,4 +1,0 @@
-package IntroduccionV
-
-class Intro {
-}
